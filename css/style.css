@@ -5,9 +5,31 @@
 }
 header{
     background-color: #F8F4F0;
-    padding:10px;
+    padding:20px;
     justify-content: space-between;
     align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:coral;
+}
+
+.header h1 {
+    font-size:medium;
+    color:#F8F4F0;
+}
+
+.texto_pequeno {
+    font-size: x-small;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color:aqua;
+}
+
+#nav-links{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-weight: bold;
 }
 
 #titulo-header small {
@@ -27,10 +49,6 @@ main {
     align-items:center;
 }
 
-#texto-hero h1{
-    font-size:80px;
-    color:#4F4F4F;
-}
 
 #texto-hero p{
     font-size:16px;
@@ -45,26 +63,35 @@ main {
 }
 .card{
     background-color:rgb(255, 255, 255);
-    width: 30px;
-    margin-top: 20px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card img{
     width:100%;
     margin-bottom: 20px;
+    height: auto;
+    display: block;
 }
 
 #galeria-imgs{
     display:flex;
-    gap:10px;
+    gap:20px;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-top:20px;
     flex-wrap: wrap;
 }
 
 .card-texto{
     padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color:#FFB6C1
 }
 
 table {
